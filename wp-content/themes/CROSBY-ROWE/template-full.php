@@ -86,7 +86,7 @@ endwhile;
 
 				<div class="col-md-7"><?php the_field('main_column'); ?></div>
 
-				<div class="col-md-3"><?php the_field('side_column'); ?></div>
+				<div class="col-md-3"><?php the_field('sidebar'); ?></div>
 
 				<div class="col-md-1"></div>
 			</div>
@@ -126,7 +126,7 @@ endwhile;
 
 				<div class="col-md-7"><?php the_field('main_column'); ?></div>
 
-				<div class="col-md-3"><?php the_field('side_column'); ?></div>
+				<div class="col-md-3"><?php the_field('sidebar'); ?></div>
 
 				<div class="col-md-1"></div>
 			</div>
