@@ -1,0 +1,125 @@
+<?php
+    header("Content-type: text/css; charset: UTF-8");
+?>
+
+/* PAGE */
+.wrapper{
+	/*width: 100%;
+	padding: 0;
+	max-width: 100%;*/
+}
+#content {
+    margin-top: 175px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+
+/* MISC */
+.donate-button {
+    background-color: #82bc00;
+    color: #ffffff;
+    padding: .5em 1em;
+}
+.gradient {
+	/* THIS NEEDS TO BE CHANGED WHEN MIGRATED */
+	background-image:url('http://transition.alextryonpdx.com/wp-content/themes/CROSBY-ROWE/img/gradient-bar.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.donate {
+    width: 150px;
+    display: inline-block;
+    margin: 5px auto;
+}
+
+.apply {
+    width: 150px;
+    display: inline-block;
+    margin: 5px auto;
+}
+
+.blue {
+	color: #3fbfad;
+}
+.green {
+	color: #82bc00;
+}
+.grey {
+	color: #96979b;
+}
+.bold {
+	font-weight: bold;
+}
+
+/* HEADER / NAV */
+.header {
+    height: 180px;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+	border-bottom: 1px dotted;
+	z-index: 9;
+}
+.logo-img {
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+#header-donate {
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+.nav {
+    position: absolute;
+    width: 100%;
+    top: 125px;
+    right: 0;
+    display: inline-flex;
+}
+
+.nav ul {
+    list-style: none;
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    /* position: absolute; */
+}
+.nav li a {
+	color: #3fbfad;
+}
+.nav li a.active,
+.nav li a:hover {
+	color: #82bc00;
+}
+
+#banner h2 {
+	text-align: right;
+}
+.header-citation {
+    margin-right: 10%;
+}
+
+
+
+
+/* FOOTER */
+.top-footer {
+    height: 140px;
+    width: 100%;
+    display: inline-block;
+}
+.citation-footer {
+	width: 100%;
+	display: inline-block;
+	padding: 1em 0;
+}
+
+
+
+
+
